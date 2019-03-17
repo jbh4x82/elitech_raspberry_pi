@@ -1,7 +1,7 @@
 # elitech_raspberry_pi
 Elitech datareader implementation on Raspberry Pi with Elitech RC-4HC to upload temperature and humidity data to a server URL in JSON format.
 
-Based on: https://pypi.org/project/elitech-datareader/
+Based on: https://pypi.org/project/elitech-datareader/ and https://github.com/civic/elitech-datareader
 
 NB: This is written for Raspberry Pi (Raspbian) and RC-4HC.
 - If you are using a different operating system, you might have to change the device address from /dev/ttyUSB0 (you can browse the /dev folder on your PC to find a device that has "USB" in the name)
