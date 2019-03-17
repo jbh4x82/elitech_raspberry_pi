@@ -2,20 +2,11 @@
 
 # Download readings from the humidity and temperature meter
 
-import pyaudio
-import struct
-import math
-import smtplib
-import numpy as np
 import requests
 import time
-from scipy import stats
-import tkinter as tk
 import elitech
 from datetime import datetime
-import keyboard
 import json
-import requests
 
 
 class DataReaderRecord:
